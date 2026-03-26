@@ -1228,4 +1228,4 @@ class DinoSectioner(TextonSectioner):
         """
         with open(load_path, "rb") as file:
             state = pickle.load(file)
-            self.clusterers = state
+            self.clusterers = state

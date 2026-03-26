@@ -30,4 +30,4 @@ def overlay_warp_on_slice(aligned_slice, warp_slice):
     overlay = cv2.applyColorMap(normalise(warp_slice), cv2.COLORMAP_JET)
     overlay = cv2.cvtColor(overlay, cv2.COLOR_BGR2RGB)
     grey_with_overlay = cv2.addWeighted(grey, 0.5, overlay, 0.5, 0)
-    return grey_with_overlay
+    return grey_with_overlay
