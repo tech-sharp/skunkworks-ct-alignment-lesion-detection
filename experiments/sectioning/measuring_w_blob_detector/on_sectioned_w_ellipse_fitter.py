@@ -127,4 +127,4 @@ for ax, loc_set, centre_list in zip(axes, loc_sets, centre_lists):
     ax.set_xlabel("axial")
     ax.set_ylabel("coronal")
     ax.set_zlabel("sagittal")
-assert True
+assert True
