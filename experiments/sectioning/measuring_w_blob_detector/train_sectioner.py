@@ -41,4 +41,4 @@ sectioner.train_clusterers()
 # sectioner.save(out_dir / "model.pkl")
 sectioner.save(
     data_root_directory().parent / "hierarchical_mean_shift_tissue_sectioner_model.pkl"
-)
+)
