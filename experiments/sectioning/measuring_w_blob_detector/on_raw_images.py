@@ -109,4 +109,4 @@ f, axes = plt.subplots(1, 1)
 axes = np.ravel(axes)
 for i in range(orig_slice - 5, orig_slice):
     axes[0].imshow(0.25 * blob_views[0][i, :, :] + full_views[0][i, :, :])
-    plt.pause(0.5)
+    plt.pause(0.5)
