@@ -135,4 +135,4 @@ class TestUiStackWindowLoadData:
                         "Sectioning model not found, tissue sectioning will not be "
                         "available.",
                         "Missing tissue sectioning model error",
-                    )
+                    )

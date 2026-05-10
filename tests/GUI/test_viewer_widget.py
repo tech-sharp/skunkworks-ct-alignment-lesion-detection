@@ -1114,4 +1114,4 @@ class TestHandleItemSelection:
         window_widget_with_data.ellipses = {"scan_1": [], "scan_2": ellipses}
         window_widget_with_data.update_ellipse_table([], ellipses)
         window_widget_with_data.ui.detection_tables[1].selectRow(0)
-        assert window_widget_with_data.ui.slice_slider.value() == 10
+        assert window_widget_with_data.ui.slice_slider.value() == 10

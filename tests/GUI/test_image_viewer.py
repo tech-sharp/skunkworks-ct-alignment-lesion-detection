@@ -27,4 +27,4 @@ class TestImageViewer:
         assert viewer_widget.scale_factor() == 1
 
     def test_painter_element_returns_qpainter(self, viewer_widget):
-        assert isinstance(viewer_widget.painter_element(), QPainter)
+        assert isinstance(viewer_widget.painter_element(), QPainter)
