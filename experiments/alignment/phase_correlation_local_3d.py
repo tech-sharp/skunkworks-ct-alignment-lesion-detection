@@ -146,4 +146,4 @@ for patient_num in range(1, 17):
         curr_path = save_dir / f"central_plane_corrected.png"
         plt.savefig(curr_path)
         plt.pause(0.1)
-        plt.close("all")
+        plt.close("all")
