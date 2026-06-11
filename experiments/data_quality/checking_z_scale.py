@@ -40,4 +40,4 @@ for patient_num in range(1, 21):
             thickness_diff = 0
         print(
             f"{thickness_diff} difference between z thicknesses for patient {patient_num}, body part {body_part}"
-        )
+        )
