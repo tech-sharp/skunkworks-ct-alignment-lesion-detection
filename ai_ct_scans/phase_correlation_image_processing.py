@@ -258,4 +258,4 @@ def generate_overlay_2d(images, normalize=True):
         else:
             overlaid[: im.shape[0], : im.shape[1], im_i] = im
 
-    return overlaid
+    return overlaid

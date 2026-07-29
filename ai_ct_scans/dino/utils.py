@@ -891,4 +891,4 @@ def multi_scale(samples, model):
             v += feats
     v /= 3
     v /= v.norm()
-    return v
+    return v
