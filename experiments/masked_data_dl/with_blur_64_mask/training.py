@@ -31,4 +31,4 @@ trainer = InfillTrainer(
 )
 # leave this next line in to reload model from checkpoint
 trainer.load_model(save_dir)
-trainer.train_for_iterations(500000)
+trainer.train_for_iterations(500000)
