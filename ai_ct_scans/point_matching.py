@@ -34,4 +34,4 @@ def match_indices(points_0, points_1):
 
     """
     cost_mat = abs_dist_cost_matrix(points_0, points_1)
-    return linear_sum_assignment(cost_mat)
+    return linear_sum_assignment(cost_mat)
