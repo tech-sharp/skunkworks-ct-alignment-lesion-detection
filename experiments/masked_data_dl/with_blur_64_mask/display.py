@@ -98,4 +98,4 @@ curr_path = save_dir / "difference_same_scale_slices.png"
 plt.tight_layout()
 # f.subplots_adjust(right=0.2)
 f.colorbar(curr_axis, ax=axes.tolist())
-plt.savefig(curr_path)
+plt.savefig(curr_path)
